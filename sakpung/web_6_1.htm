@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<style>
+.box {
+  width:100px;height:100px;
+  background-color:slategray;
+  color:#fff;
+  text-align:center;
+  line-height:100px;
+  transition:all 1s ease-in;
+}
+</style>
+<script type="text/javascript">
+var box = document.querySelector(".box");
+box.addEventListener("click",function(evt){
+  evt.target.style.height="200px";
+  evt.target.style.width="200px";
+});
+</script>
+
+  <title>JS Bin</title>
+</head>
+<body>
+  <div class="box">
+    box!
+  </div>
+</body>
+</html>

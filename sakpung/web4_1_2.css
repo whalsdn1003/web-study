@@ -1,0 +1,17 @@
+.wrap {
+  height:3000px;
+}
+
+.wrap > div {
+  border:1px solid gray;
+  width:100px;
+  height:100px;
+  margin:10px;
+  position:static;
+}
+
+.wrap > div:nth-child(3) {
+  position:fixed;
+  top:100px;
+  left:200px;
+}
