@@ -14,10 +14,15 @@
 }
 </style>
 <script type="text/javascript">
-var box = document.querySelector(".box");
+  var box = document.querySelector(".box");
 box.addEventListener("click",function(evt){
+  if (evt.target.style.height =="200px") {
+  evt.target.style.height="100px";
+  evt.target.style.width="100px";
+  } else {
   evt.target.style.height="200px";
   evt.target.style.width="200px";
+    }
 });
 </script>
 
