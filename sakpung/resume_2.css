@@ -1,0 +1,72 @@
+header {
+    font-size:32px;
+    color:black;
+    width:100%;
+    text-align: center;
+}
+
+body > lu {
+    float: left;   
+    list-style: none; 
+}
+
+.content {
+    float: left;
+    list-style: none; 
+}
+
+.content_li_left {
+    float: left;
+    list-style: none; 
+    border: 1px solid #808080;
+    height: 100%;
+}
+.content_li_right {
+    float: left;
+    list-style: none; 
+    border: 1px solid #808080;
+}
+
+table {
+    font-family:"Gulim";
+    border-collapse:collapse;
+    width:100%;
+}
+
+table td, th {
+    border: 1px solid black;
+}
+th {
+    text-align: center;
+    height:50px;
+    background-color: #ff0;
+}
+
+
+footer {
+  color: #808080;
+}    
+
+#학력사항 {
+    background-color: cadetblue;
+    padding:40px;
+}
+#자격사항 {
+    background-color: burlywood;
+    padding:40px;
+}
+#활동사항 {
+    background-color: cornflowerblue;
+    padding:40px;
+}
+
+#자기소개서 {
+    background-color: brown;
+    padding:40px;
+}
+
+#자기소개서 ul {
+    padding:20px;
+    float: inherit;
+    border: 1px solid #808080;
+}
