@@ -11,8 +11,8 @@ body > lu {
 }
 
 .content {
-    float: left;
-    list-style: none; 
+    float: left; 
+    list-style: none;  
 }
 
 .content_li_left {
@@ -41,7 +41,6 @@ th {
     height:50px;
     background-color: #ff0;
 }
-
 
 footer {
   color: #808080;
