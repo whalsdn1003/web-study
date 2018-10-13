@@ -5,7 +5,7 @@ header {
     text-align: center;
 }
 
-body > lu {
+body > ul_ {
     float: left;   
     list-style: none; 
 }
@@ -76,7 +76,11 @@ footer {
     background-color: cornflowerblue;
     padding:10px;
 }
- 
+#활동사항:hover {
+    background-color: blue;
+    padding:10px;
+}
+
 #자기소개서 {
     background-color: brown;
     padding:10px;
