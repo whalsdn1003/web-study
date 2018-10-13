@@ -23,6 +23,7 @@ body > lu {
 }
 .content_li_right {
     float: left;
+    width: 800px;
     list-style: none; 
     border: 2px solid #808080;
 }
@@ -35,11 +36,28 @@ table {
 
 table td, th {
     border: 1px solid black;
+    height: 30px;
 }
-th {
+table th {
     text-align: center;
     height:50px;
     background-color: #ff0;
+}
+
+table th:nth-child(1) {
+    width: 150px;
+}
+table th:nth-child(3) {
+    width: 150px;
+}
+table td:nth-child(1) {
+    text-align: center;
+}
+table td:nth-child() {
+    margin: 5px;
+}
+table td:nth-child(3) {
+    text-align: center;
 }
 
 footer {
@@ -48,25 +66,27 @@ footer {
 
 #학력사항 {
     background-color: cadetblue;
-    padding:40px;
+    padding:10px;
 }
 #자격사항 {
     background-color: burlywood;
-    padding:40px;
+    padding:10px;
 }
 #활동사항 {
     background-color: cornflowerblue;
-    padding:40px;
+    padding:10px;
 }
 
 #자기소개서 {
     background-color: brown;
-    padding:40px;
+    padding:10px;
 }
 
 #자기소개서 ul {
-    padding:20px;
-    margin:10px;
+    /* padding:30px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*margin:10px;*/
     float: inherit;
     border: 1px solid #808080;
 }
