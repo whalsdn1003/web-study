@@ -1,0 +1,14 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "for studying",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AlbertKo <myeongsku@gmail.com> (https://github.com/AlbertKo827)",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
