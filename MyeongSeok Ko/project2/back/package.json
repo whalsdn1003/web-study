@@ -9,6 +9,7 @@
   "author": "AlbertKo <myeongsku@gmail.com> (https://github.com/AlbertKo827)",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express.js": "^1.0.0"
   },
   "devDependencies": {
