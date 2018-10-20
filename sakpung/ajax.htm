@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<script>
+var oReq = new XMLHttpRequest();
+oReq.addEventListener("load", function () {
+  console.log(this.responseText);
+});
+oReq.open("GET", "https://sakpung.github.io/web-study/sakpung/json.json");
+oReq.send;
+</script>
+</body>
+</html>
